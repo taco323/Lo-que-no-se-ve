@@ -6,7 +6,7 @@ let img, img2;
 
 function preload() {
   bodyPose = ml5.bodyPose({ flipped: true });
-  img = loadImage("assets/ansuno.jpg");
+  img = loadImage("assets/ansuno.webp");
   img2 = loadImage("assets/ansdos.jpg");
 }
 
